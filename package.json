@@ -6,7 +6,13 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/jwt": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "6.4.0",
+    "elysia": "latest",
+    "eslint": "8.0.1",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-n": "15.0.0"
   },
   "devDependencies": {
     "bun-types": "latest"
